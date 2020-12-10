@@ -8,8 +8,8 @@ wdPath <- getwd()
 wdPath
 
 # Create a folder Data. Write wdPath to file
-if (!file.exists("Data")) {
-  dir.create("Data")
+if (!file.exists("Data1")) {
+  dir.create("Data1")
 } 
 
 saveRDS(wdPath, "Data/wdPath.RData")
